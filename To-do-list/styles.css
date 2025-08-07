@@ -1,0 +1,66 @@
+/* Base reset */
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body{
+  font-family: Arial, sans-serif;
+  background-color: grey;
+  align-items: center;
+  h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #2c3e50;
+  font-size: 2rem;
+}
+
+.li {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+  color: #555;
+}
+/*Form styles*/
+form {
+  background: #fff;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 25px 30px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+
+
+}
+a{
+  text-decoration: none;
+}
+ul{
+  width: 80%;
+margin-left: auto;
+margin-right: auto;
+}
+/* unvisited link */
+a:link {
+  color: blue;
+}
+/* visited link */
+a:visited {
+  color: green;
+}
+/* mouse over link */
+a:hover {
+  color: purple;
+}
+/* selected link*/
+a:active {
+  color: red;
+}
+a:focus{
+  outline:20px; color:blue;
+}
