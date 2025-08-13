@@ -1,0 +1,26 @@
+body{
+  background-color: #f4f4f4;
+  text-align: center;
+}
+.color-box{
+  width:100px; 
+  height:100px;
+  border-radius: 10px;
+  display: flex;
+  margin: 8px;
+}
+.color1{
+  background-color: #ffa500;
+}
+.color2{
+  background-color: rgb(255, 0, 0)
+}
+.color3{
+  background-color: green;
+}
+.color4{
+  background-color: hsl(248, 53%, 48%)
+}
+.color5{
+  background: linear-gradient(to left,magenta,cyan);
+}
